@@ -19,9 +19,9 @@
 
 [Basics](#basics)    
 [Adding and Changing Things](#adding-and-changing-things)    
-[Next Section (todo: Fix This)](#next-section)    
-[Next Section (todo: Fix This)](#next-next-section)    
-[Commands for Remotes](remote-commands.md)   
+[Undo Changes and Recover Files](#undo-changes-and-recover-files)
+[Viewing Commits](#viewing-commits)
+[Branch and Merge](#branch-and-merge)        
 [Favorites](#favorites)     
 [Resources](#resources)
 
@@ -33,8 +33,8 @@ In this file, directory paths are written with a forward slash as on MacOS, Linu
 ## Basics
 
 1. When using Git locally, what are these?  Define each one in a sentence
-   * Staging area -
-   * Working copy -
+   * Staging area - Its is the part that add to see change before commit to the repository.
+   * Working copy - 
    * master -
    * HEAD -
 
