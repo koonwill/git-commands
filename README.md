@@ -74,12 +74,12 @@ test/
    ```
 4. Remove `README.md` from the staging area. (Useful if you accidentally add something you don't want to commit.)
    ```
-   git rm README.md
+   git restore --staged README.md
    ```
 
 5. Commit everything in the staging area to the repository.
    ```
-   git commit -am "Commit message"
+   git commit -m "Commit message"
    ```
 
 6. Describe 2 steps to configure the repository so git will ignore all files in the `out/` directory:
