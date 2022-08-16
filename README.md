@@ -16,14 +16,14 @@
 ## Using Git
 
 > TODO: Create a table of contents here.  Each line should be a clickable link to each part of this document or another file containing the questions and answers. One item per line.
-
-[Basics](#basics)    
-[Adding and Changing Things](#adding-and-changing-things)    
-[Undo Changes and Recover Files](#undo-changes-and-recover-files)
-[Viewing Commits](#viewing-commits)
-[Branch and Merge](#branch-and-merge)        
-[Favorites](#favorites)     
-[Resources](#resources)
+# Table of contents
+1. [Basics](#basics)    
+2. [Adding and Changing Things](#adding-and-changing-things)    
+3. [Undo Changes and Recover Files](#undo-changes-and-recover-files)
+4. [Viewing Commits](#viewing-commits)
+5. [Branch and Merge](#branch-and-merge)        
+6. [Favorites](#favorites)     
+7. [Resources](#resources)
 
 #### Note on Paths
 
@@ -34,23 +34,24 @@ In this file, directory paths are written with a forward slash as on MacOS, Linu
 
 1. When using Git locally, what are these?  Define each one in a sentence
    * Staging area - Its is the part that add to see change before commit to the repository.
-   * Working copy - 
-   * master -
-   * HEAD -
+   * Working copy - The copy of files that we work on.
+   * master - Its the defaulted name used when the branch is created.
+   * HEAD - Its is a labels that point to wherever you are in your commit history.
 
 2. When you install git on a new machine (or in a new user account) you should perform these 2 git commands to tell git your name and email.  These values are used in commits that you make:
    ```
    # Git configuration commands for a new account
-
+   $ git config --global user.name "Siravich Will"
+   $ git config --global user.email siravich.te@example.com
 
    ```
 
 3. There are 2 ways to create a local Git repository.  What are they?
-   - todo: briefly describe first way
-   - todo: briefly describe second way
+   - $ git init: This way its will created a new subdirectory named .git that contains all of your necessary repository files. But nothing will be tracked yet.
+   - $ git clone: This way its will copy of an existing git repository that you want.
 
 4. When you create a git repository by entering `git init`, Git will create a "hidden" directory for the local repository.  Where is the directory for this local repository (relative to the directory where you typed "git init")?
-
+   - #TODO
 
 
 ## Adding and Changing Things
@@ -71,7 +72,7 @@ test/
 
 1. Add README.md and *everything* in the `src` directory to the git staging area.
    ```
-   todo  your answer here
+   git add README.md
    ```
 
 2. Add `test/test_a.py` to the staging area (but not any other files).
