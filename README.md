@@ -132,7 +132,7 @@ test/
 
 5. **Recover a file:** Command to replace your working copy of `a.py` with the most recent (HEAD) version in the repository. This also works if you have deleted your working copy of this file.
    ```
-   git restore --staged a.py
+   git checkout HEAD a.py
    ```
 
 6. **Undo a commit:** Suppose you want to discard some commit(s) and move both HEAD and "master" to an earlier revision (an earlier commit)  Suppose the git commit graph looks like this (`aaaa`, etc, are the commit ids)
