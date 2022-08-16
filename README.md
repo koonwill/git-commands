@@ -85,12 +85,12 @@ test/
 6. Describe 2 steps to configure the repository so git will ignore all files in the `out/` directory:
    ```
    - Make a .gitignore file where we have to store the names of files or the directory to be ignored.
-   - To ignore all files in the out directory use out/
+   - To ignore all files in the out directory write out/ into .gitignore files.
    ```
 
 7. Command to move all the .py files from `src` to the top-level directory of this repository, so they are also moved in the Git repo.
    ```
-   git mv src/*.py
+   git mv src/*.py .
    ```
 
 8. Commit this change with the message "moved src directory":
@@ -105,7 +105,7 @@ test/
 
 10. **Delete** the file `c.py` from your working copy **and** the repository:
    ```
-   git rm src/c.py
+   git rm c.py
    ```
 
 
@@ -127,12 +127,12 @@ test/
 
 4. **Undo "git add":** If `main.py` has been added to the staging area (`git add main.py`), remove it from the staging area:
    ```
-   git restore --staged <filename>
+   git restore --staged main.py
    ```
 
 5. **Recover a file:** Command to replace your working copy of `a.py` with the most recent (HEAD) version in the repository. This also works if you have deleted your working copy of this file.
    ```
-   git restore HEAD
+   git restore --staged a.py
    ```
 
 6. **Undo a commit:** Suppose you want to discard some commit(s) and move both HEAD and "master" to an earlier revision (an earlier commit)  Suppose the git commit graph looks like this (`aaaa`, etc, are the commit ids)
