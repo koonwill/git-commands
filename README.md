@@ -31,10 +31,12 @@ In this file, directory paths are written with a forward slash as on MacOS, Linu
 ## Basics
 
 1. When using Git locally, what are these?  Define each one in a sentence
+   ```
    * Staging area - Its is the part that add to see change before commit to the repository.
    * Working copy - The copy of files that we work on.
    * master - Its the defaulted name used when the branch is created.
    * HEAD - Its is a labels that point to wherever you are in your commit history.
+   ```
 
 2. When you install git on a new machine (or in a new user account) you should perform these 2 git commands to tell git your name and email.  These values are used in commits that you make:
    ```
@@ -45,12 +47,15 @@ In this file, directory paths are written with a forward slash as on MacOS, Linu
    ```
 
 3. There are 2 ways to create a local Git repository.  What are they?
+   ```
    - git init: This way its will created a new subdirectory named .git that contains all of your necessary repository files. But nothing will be tracked yet.
    - git clone: This way its will copy of an existing git repository that you want.
+   ```
 
 4. When you create a git repository by entering `git init`, Git will create a "hidden" directory for the local repository.  Where is the directory for this local repository (relative to the directory where you typed "git init")?
+   ```
    - Its will be hidden in the same folder that you create the repository.
-
+   ```
 
 ## Adding and Changing Things
 
@@ -238,7 +243,8 @@ test/
 
 > TODO: Add *at least* 1 git task that (a) that you'd like to remember, or (b) you think is really useful, and the git command(s) to do it.
    ```
-   
+   # Adds content from working directory into staging area.
+   git add <filename>
    ```
 
 
