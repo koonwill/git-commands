@@ -1,18 +1,3 @@
-> **Instructions**
-> 
-> 1. Read Chapters 2 & 3 of [Pro Git][ProGit]. The chapters are short.
-> 2. Answer these questions using [Markdown format][markdown-cheatsheet] (also [Github Markdown][github-markdown]). 
-> 3. Place your answers between lines beginning with 3 backquotes, which tells Markdown it should be unformatted text, and write only the commands you would type (**no** shell prompt).
->    Indent the 3 backquotes so they line up with the question text (3 leading spaces) so Markdown formats you answer as part of the numbered item.
->    Example:
->    ```
->    git init
->    ```  
-> 4. **Test that your answers are correct!** There is **no excuse** for incorrect answers since you can test your answers by experimentation.      
-> 5. **Delete these instructions and all "TODO" lines.** Points deducted for each "TODO" in submitted work.   
-> 6. Verify that your Markdown formatting is correct -- points deducted for bad formatting. VS Code and IntelliJ have markdown previewers. You should also preview it on Github, since Github Markdown is a bit non-standard.
->   *Excellent VS Code Markdown Previewer*: the [Markdown Preview Enhanced][vscode-markdown-preview-enhanced] extension.
-
 ## Using Git
 ### Table of contents
 1. [Basics](#basics)    
@@ -126,8 +111,6 @@ test/
 
 ## Undo Changes and Recover Files
 
-> TODO: enter the git command to do each of these
-
 1.  Display the differences between your *working copy* of `a.py` and the `a.py` in the *local repository* (HEAD revision):
    ```
    git diff HEAD a.py
@@ -200,7 +183,6 @@ test/
 
 ## Branch and Merge
 
-> TODO write the commands to do each of these
 1. Create a new branch named `dev-foo`:
    ```
    git branch dev-foo
@@ -221,7 +203,6 @@ test/
    ```
 
 5. **Merge:** To merge the work from `dev-foo` into the master branch, perform these steps:
-   > TODO: write a description of the steps and the git command(s) for each step
    1. step one
       ```
       git checkout master
@@ -241,7 +222,6 @@ test/
 
 ## Favorites
 
-> TODO: Add *at least* 1 git task that (a) that you'd like to remember, or (b) you think is really useful, and the git command(s) to do it.
    ```
    # Adds content from working directory into staging area.
    git add <filename>
@@ -250,8 +230,7 @@ test/
 
 ---
 ## Resources
-
-> TODO: Add your favorite Git resources (at least 1)
+   [Pro Git Online Book][ProGit]
 
 [Pro Git Online Book][ProGit] Chapters 2 & 3 contain the essentials. Downloadable PDF is also available.     
 [Visual Git Reference](https://marklodato.github.io/visual-git-guide) one page with illustrations of git commands.
