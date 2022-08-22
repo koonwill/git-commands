@@ -41,7 +41,8 @@
    
    What happens when you `push` your changes?    
    Explain why and how to fix it.
-   ``
+   `Its will raise an Error when we push because the file in our machince isn't the same with the remote due to the change in README.md on github.`
+   `In the solution to fix it is using git fetch to update the local repo then use git merge to merge our code with the version that we updated in github.`
 
 
 7. The command to change the URL of the remote "origin" to a new URL, such as `https://hostname/newuser/new-repo-name`, is:
